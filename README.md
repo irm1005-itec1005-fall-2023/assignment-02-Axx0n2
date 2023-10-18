@@ -7,7 +7,7 @@
 
 **Semester**: Fall 2023
 
-**Due Date**: 11:59 PM on October 19, 2023
+**Due Date**: 11:59 PM on October 22, 2023
 
 **Assessment**: This assignment is worth 15% of your final grade and marked out of 100.
 

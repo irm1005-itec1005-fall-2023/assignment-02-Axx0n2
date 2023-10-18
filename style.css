@@ -3,6 +3,8 @@
  * CSS FILE
  */
 
+
+/* 
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #fb8500;
@@ -17,3 +19,122 @@ h1 {
   text-align: center;
   color: #023047;
 }
+*/
+
+header {
+  background-color: rgb(83, 79, 79);
+  
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.links {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.links ul {
+  display: flex;
+  flex-direction: row;
+  background-color: brown;
+  justify-content: center;
+  flex-direction: row;
+  
+  
+}
+
+.links li {
+  display: flex;
+  list-style: none;
+  background-color: aqua;
+  
+}
+
+.links a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  padding: 40px;
+  margin: 10px;
+  height: 100px;
+  width: 150px;
+  background-color: blueviolet;
+ 
+}
+
+
+
+.links a:hover {
+  background-color: aliceblue;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.bigBox {
+  display: flex;
+  flex-direction: row;
+}
+
+main img {
+  height: 50%;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px
+}
+
+.box a {
+  text-decoration: none;
+  background-color: black;
+  color: red;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.lower {
+  display: flex;
+  flex-direction: column;
+}
+
+.lower h2 {
+  text-align: center;
+}
+
+.box:hover {
+  background-color: black;
+  color: red;
+}
+
+.box:hover a {
+  background-color: red;
+  color: black;
+}
+
+footer {
+  background-color: rgb(83, 79, 79);
+
+}
+
