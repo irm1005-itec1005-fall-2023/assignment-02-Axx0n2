@@ -34,38 +34,32 @@ header {
   justify-content: flex-start;
 }
 
+.title h2 {
+  align-self: center;
+  font-size: xx-large;
+  margin-left: 40px;
+}
 
 .links {
   display: flex;
-  justify-content: center;
-  
+  justify-content:space-evenly;
 }
 
-.links ul {
+nav {
   display: flex;
-  flex-direction: row;
-  background-color: brown;
-  justify-content: center;
-  flex-direction: row;
-  
-  
 }
 
-.links li {
-  display: flex;
-  list-style: none;
-  background-color: aqua;
-  
-}
 
 .links a {
+  display: flex;
+  flex-direction: row;
   text-decoration: none;
   text-align: center;
   color: black;
-  padding: 40px;
-  margin: 10px;
+  padding: 30px;
+  margin: 5px;
   height: 100px;
-  width: 150px;
+  width: 200px;
   background-color: blueviolet;
  
 }
