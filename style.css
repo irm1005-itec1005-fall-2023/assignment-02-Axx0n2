@@ -60,14 +60,14 @@ nav {
   margin: 5px;
   height: 100px;
   width: 200px;
-  background-color: blueviolet;
+  background-color: rgba(127, 126, 129, 0.822);
  
 }
 
 
 
 .links a:hover {
-  background-color: aliceblue;
+  background-color: rgb(173, 175, 176);
 }
 
 
@@ -91,13 +91,25 @@ main img {
   height: 50%;
 }
 .box {
+  
   display: flex;
   flex-direction: column;
   width: 80%;
-
+  height: 500px;
   margin: 10px;
   padding: 10px;
-  border-radius: 10px
+  border-radius: 10px;
+  justify-content:space-between;
+}
+
+
+
+
+
+.part {
+  display: flex;
+  
+  justify-content: center;
 }
 
 .box a {
@@ -106,6 +118,17 @@ main img {
   color: red;
   border-radius: 10px;
   text-align: center;
+  margin-top: 70px;
+  padding: 0px 150px 0px 150px;
+}
+
+.box p {
+  margin: 20px;
+  padding: 10px;
+}
+
+.box h2 {
+  margin-left: 20px;
 }
 
 .lower {
