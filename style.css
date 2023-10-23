@@ -133,11 +133,35 @@ main img {
 
 .lower {
   display: flex;
+  align-self: flex-start;
   flex-direction: column;
+  margin: 2rem;
+  width: 30rem;
+  background-color: rgb(83, 79, 79);
 }
 
-.lower h2 {
+
+
+.lower img{
+  width: 20rem;
+  border: rgba(173, 175, 176, 0.289) solid;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.lower p {
+  padding: 5px;
+}
+
+.lower a {
+  text-decoration: none;
+  background-color: rgba(69, 74, 29, 0.786);
   text-align: center;
+  border-radius: 2rem;
+  padding: 5px;
+  margin: 2rem;
+  color: black;
+  font-size: x-large;
 }
 
 .box:hover {
@@ -155,19 +179,21 @@ footer {
   
 }
 
-.endLinks {
-  display: flx;
-  justify-content: center;
-}
 
 .end {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
+
+.endLinks {
+  border-right: 4px solid;
+}
+
 .endLinks li{
   display: flex;
   margin: 20px;
+  
 }
 
 .endLinks a {
@@ -180,9 +206,21 @@ footer {
 
 .logo{
   display: flex;
-  width: 200px;
-  height: 200px;
-  justify-content: end;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.logo h2{
+  margin-left: 14.3rem;
+  font-size: xx-large;
+}
+
+.logo img{
+  height: 150px;
+  width:150px;
+  margin-left: 15rem;
+  margin-top: 2rem;
 }
 
 .endLinks h2 {
@@ -190,5 +228,5 @@ footer {
 }
 
 .address {
-  background-color: yellowgreen;
+  background-color: rgb(207, 36, 21);
 }
