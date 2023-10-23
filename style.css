@@ -3,17 +3,242 @@
  * CSS FILE
  */
 
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 h1 {
   font-size: 2rem;
   font-weight: bold;
+ 
+ 
+}
+
+
+header {
+  background-color: rgb(83, 79, 79);
+  
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.title h2 {
+  align-self: center;
+  font-size: xx-large;
+  margin-left: 40px;
+}
+
+.links {
+  display: flex;
+  justify-content:space-evenly;
+}
+
+nav {
+  display: flex;
+}
+
+
+.links a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
   text-align: center;
-  color: #023047;
+  color: black;
+  padding: 30px;
+  margin: 5px;
+  height: 100px;
+  width: 200px;
+  background-color: rgba(127, 126, 129, 0.822);
+ 
+}
+
+
+
+.links a:hover {
+  background-color: rgb(173, 175, 176);
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+
+
+}
+
+.bigBox {
+  display: flex;
+  flex-direction: row;
+}
+
+main img {
+  height: 50%;
+}
+.box {
+  background-color: rgba(183, 16, 16, 0.392);
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 500px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content:space-between;
+}
+
+
+
+
+
+.part {
+  display: flex;
+  
+  justify-content: center;
+}
+
+.box a {
+  text-decoration: none;
+  background-color: black;
+  color: red;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 70px;
+  padding: 0px 150px 0px 150px;
+}
+
+.box p {
+  margin: 20px;
+  padding: 10px;
+}
+
+.box h2 {
+  margin-left: 20px;
+}
+
+.box h3 {
+  margin-left: 20px;
+}
+
+.box ul {
+  margin-left: 20px;
+}
+
+.lower {
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  margin: 2rem;
+  width: 30rem;
+  background-color: rgb(83, 79, 79);
+  border-radius: 10px;
+}
+.lower h2 {
+  margin-left: 2rem;
+}
+
+.lower p {
+  margin-left: 2rem;
+  padding: 5px;
+}
+
+
+.lower img{
+  width: 20rem;
+  border: rgba(173, 175, 176, 0.289) solid;
+  border-radius: 6px;
+  margin-left: 2rem;
+
+}
+
+
+.lower a {
+  text-decoration: none;
+  background-color: rgba(69, 74, 29, 0.786);
+  text-align: center;
+  border-radius: 2rem;
+  padding: 5px;
+  margin: 2rem;
+  color: black;
+  font-size: x-large;
+}
+
+.box:hover {
+  background-color: black;
+  color: red;
+}
+
+.box:hover a {
+  background-color: red;
+  color: black;
+}
+
+footer {
+  background-color: rgb(83, 79, 79);
+  
+}
+
+
+.end {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.endLinks {
+  border-right: 4px solid;
+}
+
+.endLinks li{
+  display: flex;
+  margin: 20px;
+  
+}
+
+.endLinks a {
+  display: flex;
+  text-decoration: none;
+  color: red;
+  flex-direction: row;
+  margin-left: 40px;
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.logo h2{
+  margin-left: 14.3rem;
+  font-size: xx-large;
+}
+
+.logo img{
+  height: 150px;
+  width:150px;
+  margin-left: 15rem;
+  margin-top: 2rem;
+}
+
+.endLinks h2 {
+  margin-left: 80px;
+}
+
+.address {
+  background-color: rgb(207, 36, 21);
 }
